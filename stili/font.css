@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "darling";
+  src: url("font/darling_coffee/Darling\ Coffee.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "dastin";
+  src: url("font/dastin/Dastin.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "garet-book";
+  src: url("font/garet/Garet-Book.woff2") format("woff2");
+  font-weight: bold;
+}
