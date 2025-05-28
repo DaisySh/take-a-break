@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: garet-book, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -16,11 +16,16 @@ h1 {
   justify-self: end;
   align-self: end;
   margin-bottom: 0;
+  font-family: darling, serif;
+}
+
+h2, h3 {
+  font-family: dastin, serif;
 }
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #e9ecef;
     padding: 10px;
 }
@@ -34,9 +39,15 @@ nav a {
 
 footer {
     background-color: #f8f9fa;
-    text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    column-gap: 5%;
+}
+
+#copy {
+  place-self: center;
 }
