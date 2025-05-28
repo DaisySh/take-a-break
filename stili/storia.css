@@ -1,0 +1,89 @@
+main {
+    padding-bottom: 10%;
+}
+
+
+#origine {
+  display: grid;
+  grid-template: 1fr / 1fr min-content;
+  column-gap: 3%;
+  margin: 5% 8% 5% 8%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#felini {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* .gatto {
+  position: relative;
+  display: block;
+  width: 50%;
+  max-width: 300px;
+}
+
+.gatto img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: max-content;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.gatto:hover .overlay {
+  opacity: 1;
+} */
+
+.gatto {
+  position: relative;
+}
+
+.overlay {
+  background: rgba(164, 195, 162, 0.8);
+	color: #fbf3e9;
+  transition: .5s ease;
+	padding: 20px;
+  position: absolute;
+  left: 0px;
+  bottom: 7px;
+	width: 260px;
+	display: inline-block;
+	text-align: center;
+  opacity: 0;
+}
+
+.gatto:hover .overlay{
+  opacity: 1;
+}
+
+
+#iframe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+iframe {
+  width: 80vw;
+  height: 50vh;
+  border: 1px solid black;
+}
