@@ -1,35 +1,35 @@
 form {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20% 20% 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20% 20% 20%;
 }
 
 label {
-    margin: 0.5rem 0 0 0.2rem;
+  margin: 0.5rem 0 0.2rem;
 }
 
-input {
-    padding: 0.5rem;
-    margin-bottom: 5px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+input, select, button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #F2C6CC;
+  margin-bottom: 1rem;
 }
 
 button {
-    margin-top: 20px;
-    padding: 10px;
-    background: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #A4C3A2;
+  color: #fbf3e9;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
 }
 
 button:hover {
-    background: #0056b3;
+  background-color: #F2C6CC;
+  color: #4B3B2A;
+  font-size: 1.5rem;
 }
 
 input:focus,
- button:focus {
-   outline: 2px solid black;
- }
+button:focus {
+  outline: 2px solid #F2C6CC;
+}

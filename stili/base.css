@@ -1,12 +1,52 @@
+/*
+colori:
+rosa sakura: #F2C6CC
+verde matcha: #A4C3A2
+marrone caffè: #4B3B2A
+bianco caldo: #fbf3e9
+*/
+
 body {
-    font-family: garet-book, sans-serif;
+  font-family: garet-book, sans-serif;
+  color: #4B3B2A;
+}
+
+
+h1 {
+  font-family: darling, serif;
+  color: #A4C3A2;
+  font-size: 3rem;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #A4C3A2;
+}
+
+h2, h3 {
+  font-family: dastin, serif;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+body {
     margin: 0;
     padding: 0;
+    background-color: #fbf3e9;
 }
 
 header {
-    background-color: #f8f9fa;
+    /*background-color: #f8f9fa;*/
+    background-color: #fbf3e9;
     padding: 10px;
+    /*text-align: center;*/
     display: grid;
     grid-template: 1fr 0.5fr / 1fr 1fr;
     grid-gap: 1% 5%;
@@ -15,30 +55,65 @@ header {
 h1 {
   justify-self: end;
   align-self: end;
-  margin-bottom: 0;
-  font-family: darling, serif;
 }
 
-h2, h3 {
-  font-family: dastin, serif;
+i {
+  justify-self: start;
+  align-self: start;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #e9ecef;
-    padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color:#F2C6CC;
+  padding: 10px;
 }
 
 nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
+  margin: 0 10px;
+  color: #4B3B2A;
+  font-size: 1.3rem;
+}
+
+a[href^="https"] {
+  color: #4B3B2A;
+}
+
+
+/* unvisited link */
+nav a:link,
+a[href^="https"]:link {
+  color: #4B3B2A;
+  text-decoration: none;
+}
+
+/* visited link */
+nav a:visited,
+a[href^="https"]:visited {
+  color: #fbf3e9;
+}
+
+/* mouse over link */
+nav a:hover,
+a[href^="https"]:hover {
+  color: #A4C3A2;
+}
+
+/* selected link */
+nav a:active,
+a[href^="https"]:active{
+  color: #A4C3A2;
+}
+
+/* selected link */
+nav a:focus,
+a[href^="https"]:focus {
+  outline: 2px solid #A4C3A2;
 }
 
 
 footer {
-    background-color: #f8f9fa;
+    background-color: #F2C6CC;
     padding: 10px;
     position: fixed;
     bottom: 0;
@@ -50,4 +125,9 @@ footer {
 
 #copy {
   place-self: center;
+}
+
+section ul {
+  list-style: none;
+  text-align: left;
 }
